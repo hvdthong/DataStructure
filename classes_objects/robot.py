@@ -9,3 +9,8 @@ class Robot:
 
 
 class Person:
+    def __init__(self, name, personality, isSitting, robotOwned):
+        self.name = name
+        self.personality = personality
+        self.isSitting = isSitting
+        self.robotOwned = robotOwned
